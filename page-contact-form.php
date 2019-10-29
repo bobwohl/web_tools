@@ -27,8 +27,8 @@
     $human = $_POST['message_human'];
     
     //php mailer variables
-    $to = 'miryam@forstatessake.com';
-    $subject = "Someone sent a message from For States Sake";
+    $to = '<EMAIL TO SEND TO HERE>';
+    $subject = "Someone sent a message from <SOME SITE NAME HERE>";
     $headers = 'From: '. $email . "\r\n" .
     'Reply-To: ' . $email . "\r\n";
 
